@@ -1,0 +1,22 @@
+.form-contact {
+display: inline;
+
+}
+
+.form-nom {
+    padding: 10%;
+    background-color: aquamarine;
+
+}
+
+.form-e-mail {
+    padding: 10%;
+    background-color: rgba(223, 150, 245, 0.678);
+
+
+}
+.form-message {
+    padding: 10%;
+    background-color: rgba(245, 242, 150, 0.678);
+
+}
