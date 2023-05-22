@@ -3,12 +3,19 @@
     text-align: center;
 }
 .navbar{
-    background-color: plum;
+    background-color: rgb(213, 243, 248);
     display: flex;
+    text-align: justify;
+    border-radius: 2%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-direction: column-reverse;
 
 }
 .navbar li {
-    margin-right: 20px;
+    margin-right: 50%;
 }
 .navbar a:hover {
     text-decoration: underline;
@@ -18,20 +25,12 @@
     color: bisque;
     text-decoration:dashed ;
 }
-#wrap {
-    width: 100%;
-    height: 50px;
-    margin: 0;
-    z-index: 99;
-    position: relative;
-    background-color: #444444;
-  }
+
 
   .navbar {
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    position: absolute;
+    height: 70px;
+    padding: 1%;
+    
   }
   .navbar li {
     height: auto;
@@ -40,14 +39,13 @@
     text-align: center;
     list-style: none;
     font: normal bold 13px/1em Arial, Verdana, Helvetica;
-    padding: 0;
-    margin: 0;
-    background-color: #444444;
+    padding: 0%;
+    margin: 10;
+    background-color: coral;
   }
 
   .navbar a {
-    padding: 18px 0;
-    border-left: 1px solid #ccc9c9;
+    padding: 20px 0;
     text-decoration: none;
     color: white;
     display: block;
@@ -60,7 +58,7 @@
   .navbar li ul {
     display: none;
     height: auto;
-    margin: 0;
+    margin: 0%;
     padding: 0;
   }
   .navbar li:hover ul {
@@ -92,4 +90,38 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 100px;
     grid-gap: 10px;
+}
+.button-nav {
+  background-color: coral;
+  border-left: 2%;
+}
+
+@font-face {
+  font-family: "bertha";
+  src: url(/bertha/Bertha.ttf)
+}
+header h1 {
+  font-family: "bertha";
+} 
+@font-face {
+  font-family: "Mia";
+  src: url(/bertha/MiaKhalifah.ttf);
+}
+p {
+  font-family: "Mia";
+  font-size: 200%;
+}
+
+.button-banner {
+  background-color: coral;
+  border-left: 2%;
+  height: auto;
+  width: 135.8px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 0%;
+  margin: 10;
+  background-color: coral;
 }
